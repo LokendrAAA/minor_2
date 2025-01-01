@@ -1,0 +1,53 @@
+id,language,code,true_label,predicted_label,prediction
+1,Python,"
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+",0,1,AI-Generated
+2,C++,"
+#include <iostream>
+using namespace std;
+
+int factorial(int n) {
+    if(n == 0)
+        return 1;
+    else
+        return n * factorial(n - 1);
+}
+
+int main() {
+    int number = 5;
+    cout << ""Factorial of "" << number << "" is "" << factorial(number);
+    return 0;
+}
+",0,1,AI-Generated
+1,Python,"
+def compute_factorial(num):
+    if num == 0:
+        return 1
+    result = 1
+    for i in range(1, num+1):
+        result *= i
+    return result
+",1,1,AI-Generated
+2,C++,"
+#include <bits/stdc++.h>
+using namespace std;
+
+int computeFactorial(int n) {
+    if(n == 0) return 1;
+    int result = 1;
+    for(int i=1; i<=n; ++i) {
+        result *= i;
+    }
+    return result;
+}
+
+int main(){
+    int num = 5;
+    cout << ""Factorial of "" << num << "" is "" << computeFactorial(num);
+    return 0;
+}
+",1,1,AI-Generated
