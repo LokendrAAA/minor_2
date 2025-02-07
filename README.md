@@ -1,1 +1,1 @@
-AI Generated Code and Report Detector
+**AI Generated Code and Report Detector**
